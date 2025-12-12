@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateforme d'Enseignement Python - [Votre Nom]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="72">
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="main-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#"><i class="fas fa-terminal"></i> Espace Python</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#informations"><i
+                                class="fas fa-info-circle me-1"></i> Infos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#modules"><i class="fas fa-book-open me-1"></i>
+                            Modules</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#activites"><i class="fas fa-edit me-1"></i>
+                            Activités</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#notes"><i class="fas fa-award me-1"></i> Notes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="text-center hero-section">
+        <div class="container">
+            <h1 class="display-5">Plateforme de Cours Python : OUMAROU KANOMA Abdoulmagid</h1>
+            <p class="lead">Un environnement dédié aux ressources, aux devoirs et à l'actualité du cours.</p>
+        </div>
+    </section>
+
+    <section id="informations" class="content-section">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="fas fa-bullhorn text-accent-light me-2"></i> Annonces & Informations
+                Essentielles</h2>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card p-4 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase text-muted small"><i class="fas fa-clock me-1"></i>
+                                Disponibilité Professeur</h5>
+                            <dl class="row mt-3">
+                                <dt class="col-sm-4">Contact :</dt>
+                                <dd class="col-sm-8 fw-bold text-primary"><i class="fas fa-envelope"></i>
+                                    oumarouabdoulmagid3@gmail.com
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 h-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase text-muted small"><i class="fas fa-lightbulb me-1"></i>
+                                Philosophie du Cours</h5>
+                            <p class="card-text">Notre objectif est de passer de la théorie à la pratique concrète.
+                                Maîtriser Python, c'est maîtriser la résolution de problèmes par le code.</p>
+                            <span class="badge bg-success bg-opacity-75"><i class="fas fa-code me-1"></i> Apprentissage
+                                par Projet</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card p-4 h-100 border-primary shadow-lg"
+                        style="border-left: 5px solid var(--accent-light);">
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase mb-3 text-primary"><i
+                                    class="fas fa-user-plus me-1"></i> Inscription Obligatoire au Cours</h5>
+                            <p class="card-text">Tous les étudiants doivent obligatoirement s'inscrire via ce formulaire
+                                pour valider leur présence et recevoir les communications importantes du professeur.</p>
+                            <p class="card-text small text-muted">Veuillez fournir votre Nom Complet, votre Email, et
+                                votre Section (Groupe/Classe) lors de l'inscription.</p>
+
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6MQvMyKj3d4K3fv3vtjmdRXFtGFjqUMiUhkAxOTCFuxMYEw/viewform?usp=publish-editor"
+                                target="_blank" class="btn btn-primary btn-lg w-100 mt-3 shadow-sm">
+                                <i class="fas fa-clipboard-list me-2"></i> S'inscrire Maintenant
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="modules" class="content-section">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="fas fa-cubes text-accent-light me-2"></i> Curriculum & Modules</h2>
+            <div class="list-group">
+                <a href="https://drive.google.com/file/d/14nZuwfvHv59d8XjrPsl9pvHV6XzLAF2D/view?usp=sharing"
+                    target="_blank" class="list-group-item list-group-item-action custom-module-item p-3">
+                    <div class="d-flex w-100 justify-content-between align-items-center">
+                        <h5 class="mb-1"><i class="fas fa-layer-group me-2"></i> Module 1 : Démarrage Professionnel avec
+                            Python</h5>
+                        <small class="badge bg-secondary"><i class="fas fa-file-pdf me-1"></i> PDF</small>
+                    </div>
+                    <p class="mb-1 text-muted small">Maîtriser le workflow de démarrage d'un projet Python
+                        professionnel, mettre en place un environnement de développement stable et isolé (venv),
+                        appliquer la norme PEP 668 et les conventions de code PEP 8, utiliser les outils essentiels de
+                        qualité de code (Black) dans l'IDE.</p>
+                </a>
+                <a href="https://drive.google.com/file/d/1ednXNTxfmYKuFJt_UxOKEWH9B2kvs1bw/view?usp=sharing"
+                    target="_blank" class="list-group-item list-group-item-action custom-module-item p-3">
+                    <div class="d-flex w-100 justify-content-between align-items-center">
+                        <h5 class="mb-1"><i class="fas fa-sitemap me-2"></i> Module 2 : Types de Données Fondamentaux et
+                            Opérateurs</h5>
+                        <small class="badge bg-secondary"><i class="fas fa-file-pdf me-1"></i> PDF</small>
+                    </div>
+                    <p class="mb-1 text-muted small">Maîtriser les concepts de Variable et d'Affectation, Distinguer et
+                        manipuler les types de données de base de Python, Utiliser la syntaxe moderne des f-strings,
+                        Appliquer les opérateurs.</p>
+                </a>
+                <a href="https://drive.google.com/file/d/1ceLkRY5v8k3QXj5n_RByOYJ0_LBq3fkC/view?usp=sharing"
+                    target="_blank" class="list-group-item list-group-item-action custom-module-item p-3">
+                    <div class="d-flex w-100 justify-content-between align-items-center">
+                        <h5 class="mb-1"><i class="fas fa-sitemap me-2"></i> Module 3 : Les Structures de Contrôle et le
+                            Flux d'Exécution</h5>
+                        <small class="badge bg-secondary"><i class="fas fa-file-pdf me-1"></i> PDF</small>
+                    </div>
+                    <p class="mb-1 text-muted small">Implémenter des logiques de décision, utiliser les boucles (for,
+                        while) pour gérer l'itération et la répétition des tâches, maîtriser les outils d'itération
+                        essentiels, Optimiser le flux d'exécution, choisir la structure de contrôle la plus appropriée.
+                    </p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="activites" class="content-section">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="fas fa-pencil-alt text-accent-light me-2"></i> Activités & Échéances
+            </h2>
+
+            <div class="alert alert-primary p-4 shadow-sm text-center mb-5" role="alert"
+                style="border-left: 5px solid var(--accent-light);">
+                <h4 class="alert-heading text-primary"><i class="fas fa-calendar-check me-2"></i> Session de
+                    Présentation</h4>
+                <p class="mb-2"><strong>Prochaine rencontre : Samedi 13 Décembre.</strong></p>
+                <p class="mb-0 small">Quelques étudiants seront sélectionnés pour présenter la mise en place des
+                    concepts des modules 2 et 3.</p>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+
+                <div class="col-lg-6 col-md-10">
+                    <div class="card h-100 p-3">
+                        <div class="card-body">
+                            <h4 class="card-title text-success"><i class="fas fa-code me-1"></i> Fiche d'Activité :
+                                Module 2</h4>
+                            <p class="card-text text-muted small mb-3">Types de Données, Opérateurs et Logique Composée
+                                (Exercices 1 à 6).</p>
+                            <span class="badge bg-success mb-3"><i class="fas fa-file-pdf me-1"></i>
+                                ACTIVITE-M2.pdf</span>
+                            <p class="small fw-bold text-success">Objectif : Maîtriser la gestion des variables et des
+                                expressions logiques simples.</p>
+                            <a href="https://drive.google.com/file/d/1eNeA9mpG37Xvxi5l4LBe5OmQkFnWdD7M/view?usp=sharing"
+                                target="_blank" class="btn btn-sm btn-outline-success mt-2 w-100"><i
+                                    class="fas fa-download me-1"></i>
+                                Télécharger la Fiche d'Activité</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-10">
+                    <div class="card h-100 p-3">
+                        <div class="card-body">
+                            <h4 class="card-title text-info"><i class="fas fa-terminal me-1"></i> Fiche d'Activité :
+                                Module 3</h4>
+                            <p class="card-text text-muted small mb-3">Structures de Contrôle et Flux d'Exécution
+                                (Exercices 1 à 6, incluant `match/case`).</p>
+                            <span class="badge bg-info mb-3"><i class="fas fa-file-pdf me-1"></i> ACTIVITE-M3.pdf</span>
+                            <p class="small fw-bold text-info">Objectif : Maîtriser `if/else`, `for`, `while` et les
+                                opérateurs conditionnels.</p>
+                            <a href="https://drive.google.com/file/d/16c0_nCE1j9gTNrpk1udEfedsTea_qwDu/view?usp=sharing"
+                                target="_blank" class="btn btn-sm btn-outline-info mt-2 w-100"><i
+                                    class="fas fa-download me-1"></i> Télécharger la Fiche d'Activité</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="notes" class="content-section">
+        <div class="container">
+            <h2 class="text-center mb-5"><i class="fas fa-chart-bar text-accent-light me-2"></i> Politique d'Évaluation
+            </h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="p-5 bg-white shadow-lg rounded-3 text-center">
+                        <p class="lead mb-4">La répartition des crédits pour le cours est la suivante :</p>
+                        <ul class="list-group list-group-flush mb-4">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Activités
+                                <span class="badge bg-secondary rounded-pill p-2">50%</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                Projets de Programmation
+                                <span class="badge bg-dark rounded-pill p-2">50%</span>
+                            </li>
+                        </ul>
+                        <hr class="my-4">
+                        <a href="" target="_blank" class="btn btn-primary btn-lg custom-button-link shadow-sm"><i
+                                class="fas fa-external-link-alt me-2"></i> Accéder à la plateforme de notes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p class="mb-0 small">&copy; 2026 Espace d'Enseignement Python | Développé avec soin.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
